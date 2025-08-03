@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .visualization-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+  }
+  
+  .algorithm-container {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+  }
+  
+  .algorithm-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .array-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .bar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 5px;
+  }
+  
+  .bar {
+    width: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: white;
+    padding: 5px;
+  }
+  
+  .highlight-bar {
+    border: 2px solid #ff9800;
+    background-color: #4caf50;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  .result-container {
+    margin-top: 20px;
+  }
+  
+  .complexity-container {
+    margin-top: 30px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  

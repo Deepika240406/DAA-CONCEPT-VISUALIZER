@@ -1,0 +1,93 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .visualization-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .algorithm-container {
+    flex: 1;
+    margin-right: 20px;
+    text-align: left;
+  }
+  
+  .algorithm-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .strings-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    flex: 1;
+  }
+  
+  .string-display {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .matrix-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .matrix-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+  
+  .matrix-cell {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    border: 1px solid #ddd;
+    background-color: #f1f1f1;
+  }
+  
+  .highlight-cell {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .button-container button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  .lcs-result-container {
+    margin-top: 20px;
+  }
+  
+  .complexity-container {
+    margin-top: 30px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
